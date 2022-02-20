@@ -32,9 +32,9 @@ var init = function(){
   });
   
   
-  (window.addEventListener
-   ? window.addEventListener('click', function(){ps.init(true)}, false)
-   : window.onclick = function(){ps.init(true)});
+  // (window.addEventListener
+  //  ? window.addEventListener('click', function(){ps.init(true)}, false)
+  //  : window.onclick = function(){ps.init(true)});
 }
 
 var initParticleSlider = function(){
